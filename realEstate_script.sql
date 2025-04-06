@@ -50,8 +50,8 @@ CREATE SCHEMA external_stage_schema;
 CREATE OR REPLACE STAGE REDFIN_DATABASE_1.external_stage_schema.redfin_external_stage
     url = "s3://redfin-data-transformed-bucket-gista"
     credentials = (
-        aws_key_id = 'AKIA563Y5ZP2UORCUABK' 
-        aws_secret_key = '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'
+        aws_key_id = 'XXXX' 
+        aws_secret_key = 'XXXX'
         )
     FILE_FORMAT = REDFIN_DATABASE_1.FILE_FORMAT_SCHEMA.FORMAT_CSV;
 
