@@ -1,0 +1,24 @@
+[2025-04-06T02:25:37.861+0000] {processor.py:186} INFO - Started process (PID=3800) to work on /home/ubuntu/venv/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py
+[2025-04-06T02:25:37.862+0000] {processor.py:914} INFO - Processing file /home/ubuntu/venv/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py for tasks to queue
+[2025-04-06T02:25:37.863+0000] {logging_mixin.py:190} INFO - [2025-04-06T02:25:37.863+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubuntu/venv/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py
+[2025-04-06T02:25:37.874+0000] {logging_mixin.py:190} INFO - [2025-04-06T02:25:37.873+0000] {example_python_decorator.py:80} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2025-04-06T02:25:37.876+0000] {processor.py:925} INFO - DAG(s) 'example_python_decorator' retrieved from /home/ubuntu/venv/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py
+[2025-04-06T02:25:37.981+0000] {logging_mixin.py:190} INFO - [2025-04-06T02:25:37.981+0000] {override.py:1930} INFO - Created Permission View: can read on DAG:example_python_decorator
+[2025-04-06T02:25:37.995+0000] {logging_mixin.py:190} INFO - [2025-04-06T02:25:37.995+0000] {override.py:1930} INFO - Created Permission View: can edit on DAG:example_python_decorator
+[2025-04-06T02:25:38.005+0000] {logging_mixin.py:190} INFO - [2025-04-06T02:25:38.005+0000] {override.py:1930} INFO - Created Permission View: can delete on DAG:example_python_decorator
+[2025-04-06T02:25:38.024+0000] {logging_mixin.py:190} INFO - [2025-04-06T02:25:38.023+0000] {override.py:1930} INFO - Created Permission View: can create on DAG Run:example_python_decorator
+[2025-04-06T02:25:38.035+0000] {logging_mixin.py:190} INFO - [2025-04-06T02:25:38.035+0000] {override.py:1930} INFO - Created Permission View: menu access on DAG Run:example_python_decorator
+[2025-04-06T02:25:38.046+0000] {logging_mixin.py:190} INFO - [2025-04-06T02:25:38.046+0000] {override.py:1930} INFO - Created Permission View: can read on DAG Run:example_python_decorator
+[2025-04-06T02:25:38.057+0000] {logging_mixin.py:190} INFO - [2025-04-06T02:25:38.056+0000] {override.py:1930} INFO - Created Permission View: can delete on DAG Run:example_python_decorator
+[2025-04-06T02:25:38.057+0000] {logging_mixin.py:190} INFO - [2025-04-06T02:25:38.057+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-06T02:25:38.067+0000] {logging_mixin.py:190} INFO - [2025-04-06T02:25:38.067+0000] {dag.py:3262} INFO - Creating ORM DAG for example_python_decorator
+[2025-04-06T02:25:38.067+0000] {logging_mixin.py:190} INFO - [2025-04-06T02:25:38.067+0000] {dag.py:4180} INFO - Setting next_dagrun for example_python_decorator to None, run_after=None
+[2025-04-06T02:25:38.087+0000] {processor.py:208} INFO - Processing /home/ubuntu/venv/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py took 0.232 seconds
+[2025-04-06T02:26:41.742+0000] {processor.py:186} INFO - Started process (PID=3859) to work on /home/ubuntu/venv/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py
+[2025-04-06T02:26:41.744+0000] {processor.py:914} INFO - Processing file /home/ubuntu/venv/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py for tasks to queue
+[2025-04-06T02:26:41.746+0000] {logging_mixin.py:190} INFO - [2025-04-06T02:26:41.746+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubuntu/venv/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py
+[2025-04-06T02:26:41.754+0000] {logging_mixin.py:190} INFO - [2025-04-06T02:26:41.754+0000] {example_python_decorator.py:80} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2025-04-06T02:26:41.756+0000] {processor.py:925} INFO - DAG(s) 'example_python_decorator' retrieved from /home/ubuntu/venv/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py
+[2025-04-06T02:26:41.773+0000] {logging_mixin.py:190} INFO - [2025-04-06T02:26:41.772+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-06T02:26:41.785+0000] {logging_mixin.py:190} INFO - [2025-04-06T02:26:41.785+0000] {dag.py:4180} INFO - Setting next_dagrun for example_python_decorator to None, run_after=None
+[2025-04-06T02:26:41.808+0000] {processor.py:208} INFO - Processing /home/ubuntu/venv/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py took 0.071 seconds

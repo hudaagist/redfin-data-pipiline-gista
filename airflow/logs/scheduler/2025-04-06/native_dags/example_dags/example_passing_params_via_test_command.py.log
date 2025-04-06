@@ -1,0 +1,22 @@
+[2025-04-06T02:25:32.511+0000] {processor.py:186} INFO - Started process (PID=3796) to work on /home/ubuntu/venv/lib/python3.12/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2025-04-06T02:25:32.512+0000] {processor.py:914} INFO - Processing file /home/ubuntu/venv/lib/python3.12/site-packages/airflow/example_dags/example_passing_params_via_test_command.py for tasks to queue
+[2025-04-06T02:25:32.514+0000] {logging_mixin.py:190} INFO - [2025-04-06T02:25:32.513+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubuntu/venv/lib/python3.12/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2025-04-06T02:25:32.524+0000] {processor.py:925} INFO - DAG(s) 'example_passing_params_via_test_command' retrieved from /home/ubuntu/venv/lib/python3.12/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2025-04-06T02:25:32.628+0000] {logging_mixin.py:190} INFO - [2025-04-06T02:25:32.627+0000] {override.py:1930} INFO - Created Permission View: can read on DAG:example_passing_params_via_test_command
+[2025-04-06T02:25:32.642+0000] {logging_mixin.py:190} INFO - [2025-04-06T02:25:32.642+0000] {override.py:1930} INFO - Created Permission View: can edit on DAG:example_passing_params_via_test_command
+[2025-04-06T02:25:32.653+0000] {logging_mixin.py:190} INFO - [2025-04-06T02:25:32.653+0000] {override.py:1930} INFO - Created Permission View: can delete on DAG:example_passing_params_via_test_command
+[2025-04-06T02:25:32.672+0000] {logging_mixin.py:190} INFO - [2025-04-06T02:25:32.672+0000] {override.py:1930} INFO - Created Permission View: can create on DAG Run:example_passing_params_via_test_command
+[2025-04-06T02:25:32.682+0000] {logging_mixin.py:190} INFO - [2025-04-06T02:25:32.682+0000] {override.py:1930} INFO - Created Permission View: menu access on DAG Run:example_passing_params_via_test_command
+[2025-04-06T02:25:32.693+0000] {logging_mixin.py:190} INFO - [2025-04-06T02:25:32.693+0000] {override.py:1930} INFO - Created Permission View: can read on DAG Run:example_passing_params_via_test_command
+[2025-04-06T02:25:32.703+0000] {logging_mixin.py:190} INFO - [2025-04-06T02:25:32.702+0000] {override.py:1930} INFO - Created Permission View: can delete on DAG Run:example_passing_params_via_test_command
+[2025-04-06T02:25:32.703+0000] {logging_mixin.py:190} INFO - [2025-04-06T02:25:32.703+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-06T02:25:32.713+0000] {logging_mixin.py:190} INFO - [2025-04-06T02:25:32.712+0000] {dag.py:3262} INFO - Creating ORM DAG for example_passing_params_via_test_command
+[2025-04-06T02:25:32.722+0000] {logging_mixin.py:190} INFO - [2025-04-06T02:25:32.722+0000] {dag.py:4180} INFO - Setting next_dagrun for example_passing_params_via_test_command to 2025-04-06 02:24:00+00:00, run_after=2025-04-06 02:25:00+00:00
+[2025-04-06T02:25:32.744+0000] {processor.py:208} INFO - Processing /home/ubuntu/venv/lib/python3.12/site-packages/airflow/example_dags/example_passing_params_via_test_command.py took 0.238 seconds
+[2025-04-06T02:26:37.731+0000] {processor.py:186} INFO - Started process (PID=3855) to work on /home/ubuntu/venv/lib/python3.12/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2025-04-06T02:26:37.733+0000] {processor.py:914} INFO - Processing file /home/ubuntu/venv/lib/python3.12/site-packages/airflow/example_dags/example_passing_params_via_test_command.py for tasks to queue
+[2025-04-06T02:26:37.734+0000] {logging_mixin.py:190} INFO - [2025-04-06T02:26:37.734+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubuntu/venv/lib/python3.12/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2025-04-06T02:26:37.745+0000] {processor.py:925} INFO - DAG(s) 'example_passing_params_via_test_command' retrieved from /home/ubuntu/venv/lib/python3.12/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2025-04-06T02:26:37.762+0000] {logging_mixin.py:190} INFO - [2025-04-06T02:26:37.761+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-06T02:26:37.783+0000] {logging_mixin.py:190} INFO - [2025-04-06T02:26:37.783+0000] {dag.py:4180} INFO - Setting next_dagrun for example_passing_params_via_test_command to 2025-04-06 02:25:00+00:00, run_after=2025-04-06 02:26:00+00:00
+[2025-04-06T02:26:37.804+0000] {processor.py:208} INFO - Processing /home/ubuntu/venv/lib/python3.12/site-packages/airflow/example_dags/example_passing_params_via_test_command.py took 0.078 seconds

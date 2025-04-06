@@ -1,0 +1,29 @@
+2025-04-06 11:32:47.091 [info] Extension host with pid 1156 started
+2025-04-06 11:32:47.116 [info] Lock '/home/ubuntu/.vscode-server/data/User/workspaceStorage/b2c7a320a0ee36b2aa9aa14e173ed710/vscode.lock': Lock acquired.
+2025-04-06 11:32:47.412 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-04-06 11:32:47.415 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: false, activationEvent: '*', root cause: vscode.git
+2025-04-06 11:32:47.672 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: '*'
+2025-04-06 11:32:47.673 [info] ExtensionService#_doActivateExtension vscode.github, startup: false, activationEvent: '*'
+2025-04-06 11:32:48.180 [info] Eager extensions activated
+2025-04-06 11:32:48.182 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-04-06 11:32:48.182 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-04-06 11:32:48.183 [info] ExtensionService#_doActivateExtension GitHub.copilot, startup: false, activationEvent: 'onStartupFinished'
+2025-04-06 11:32:48.183 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onStartupFinished'
+2025-04-06 11:34:01.344 [error] Error: e is not iterable
+
+TypeError: e is not iterable
+    at B7.setItems (/home/ubuntu/.vscode-server/extensions/github.copilot-chat-0.26.0/dist/extension.js:419:26702)
+    at uc._computeFn (/home/ubuntu/.vscode-server/extensions/github.copilot-chat-0.26.0/dist/extension.js:419:26434)
+    at uc._recompute (/home/ubuntu/.vscode-server/extensions/github.copilot-chat-0.26.0/dist/extension.js:419:20272)
+    at uc.get (/home/ubuntu/.vscode-server/extensions/github.copilot-chat-0.26.0/dist/extension.js:419:19894)
+    at uc.reportChanges (/home/ubuntu/.vscode-server/extensions/github.copilot-chat-0.26.0/dist/extension.js:419:12384)
+    at K7.endUpdate (/home/ubuntu/.vscode-server/extensions/github.copilot-chat-0.26.0/dist/extension.js:419:26219)
+    at YLe (/home/ubuntu/.vscode-server/extensions/github.copilot-chat-0.26.0/dist/extension.js:419:25938)
+    at uc.recomputeInitiallyAndOnChange (/home/ubuntu/.vscode-server/extensions/github.copilot-chat-0.26.0/dist/extension.js:419:12960)
+    at KF.init (/home/ubuntu/.vscode-server/extensions/github.copilot-chat-0.26.0/dist/extension.js:601:1335)
+    at Timeout._onTimeout (/home/ubuntu/.vscode-server/extensions/github.copilot-chat-0.26.0/dist/extension.js:387:12)
+    at listOnTimeout (node:internal/timers:581:17)
+    at processTimers (node:internal/timers:519:7)
+2025-04-06 11:34:01.593 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+2025-04-06 11:34:03.187 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+2025-04-06 11:35:01.336 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10894

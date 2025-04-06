@@ -1,0 +1,10 @@
+[2025-04-06T02:25:08.646+0000] {processor.py:186} INFO - Started process (PID=3774) to work on /home/ubuntu/venv/lib/python3.12/site-packages/airflow/example_dags/plugins/decreasing_priority_weight_strategy.py
+[2025-04-06T02:25:08.647+0000] {processor.py:914} INFO - Processing file /home/ubuntu/venv/lib/python3.12/site-packages/airflow/example_dags/plugins/decreasing_priority_weight_strategy.py for tasks to queue
+[2025-04-06T02:25:08.648+0000] {logging_mixin.py:190} INFO - [2025-04-06T02:25:08.648+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubuntu/venv/lib/python3.12/site-packages/airflow/example_dags/plugins/decreasing_priority_weight_strategy.py
+[2025-04-06T02:25:08.651+0000] {processor.py:927} WARNING - No viable dags retrieved from /home/ubuntu/venv/lib/python3.12/site-packages/airflow/example_dags/plugins/decreasing_priority_weight_strategy.py
+[2025-04-06T02:25:08.662+0000] {processor.py:208} INFO - Processing /home/ubuntu/venv/lib/python3.12/site-packages/airflow/example_dags/plugins/decreasing_priority_weight_strategy.py took 0.020 seconds
+[2025-04-06T02:26:16.084+0000] {processor.py:186} INFO - Started process (PID=3834) to work on /home/ubuntu/venv/lib/python3.12/site-packages/airflow/example_dags/plugins/decreasing_priority_weight_strategy.py
+[2025-04-06T02:26:16.087+0000] {processor.py:914} INFO - Processing file /home/ubuntu/venv/lib/python3.12/site-packages/airflow/example_dags/plugins/decreasing_priority_weight_strategy.py for tasks to queue
+[2025-04-06T02:26:16.089+0000] {logging_mixin.py:190} INFO - [2025-04-06T02:26:16.088+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubuntu/venv/lib/python3.12/site-packages/airflow/example_dags/plugins/decreasing_priority_weight_strategy.py
+[2025-04-06T02:26:16.091+0000] {processor.py:927} WARNING - No viable dags retrieved from /home/ubuntu/venv/lib/python3.12/site-packages/airflow/example_dags/plugins/decreasing_priority_weight_strategy.py
+[2025-04-06T02:26:16.102+0000] {processor.py:208} INFO - Processing /home/ubuntu/venv/lib/python3.12/site-packages/airflow/example_dags/plugins/decreasing_priority_weight_strategy.py took 0.023 seconds

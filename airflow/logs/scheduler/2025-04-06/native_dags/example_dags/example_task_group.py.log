@@ -1,0 +1,22 @@
+[2025-04-06T02:25:19.144+0000] {processor.py:186} INFO - Started process (PID=3784) to work on /home/ubuntu/venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-04-06T02:25:19.145+0000] {processor.py:914} INFO - Processing file /home/ubuntu/venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-04-06T02:25:19.147+0000] {logging_mixin.py:190} INFO - [2025-04-06T02:25:19.147+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubuntu/venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-04-06T02:25:19.156+0000] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /home/ubuntu/venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-04-06T02:25:19.274+0000] {logging_mixin.py:190} INFO - [2025-04-06T02:25:19.273+0000] {override.py:1930} INFO - Created Permission View: can read on DAG:example_task_group
+[2025-04-06T02:25:19.290+0000] {logging_mixin.py:190} INFO - [2025-04-06T02:25:19.290+0000] {override.py:1930} INFO - Created Permission View: can edit on DAG:example_task_group
+[2025-04-06T02:25:19.302+0000] {logging_mixin.py:190} INFO - [2025-04-06T02:25:19.302+0000] {override.py:1930} INFO - Created Permission View: can delete on DAG:example_task_group
+[2025-04-06T02:25:19.331+0000] {logging_mixin.py:190} INFO - [2025-04-06T02:25:19.330+0000] {override.py:1930} INFO - Created Permission View: can create on DAG Run:example_task_group
+[2025-04-06T02:25:19.342+0000] {logging_mixin.py:190} INFO - [2025-04-06T02:25:19.342+0000] {override.py:1930} INFO - Created Permission View: menu access on DAG Run:example_task_group
+[2025-04-06T02:25:19.352+0000] {logging_mixin.py:190} INFO - [2025-04-06T02:25:19.352+0000] {override.py:1930} INFO - Created Permission View: can read on DAG Run:example_task_group
+[2025-04-06T02:25:19.362+0000] {logging_mixin.py:190} INFO - [2025-04-06T02:25:19.362+0000] {override.py:1930} INFO - Created Permission View: can delete on DAG Run:example_task_group
+[2025-04-06T02:25:19.362+0000] {logging_mixin.py:190} INFO - [2025-04-06T02:25:19.362+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-06T02:25:19.372+0000] {logging_mixin.py:190} INFO - [2025-04-06T02:25:19.372+0000] {dag.py:3262} INFO - Creating ORM DAG for example_task_group
+[2025-04-06T02:25:19.372+0000] {logging_mixin.py:190} INFO - [2025-04-06T02:25:19.372+0000] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2025-04-06T02:25:19.394+0000] {processor.py:208} INFO - Processing /home/ubuntu/venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py took 0.254 seconds
+[2025-04-06T02:26:26.385+0000] {processor.py:186} INFO - Started process (PID=3844) to work on /home/ubuntu/venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-04-06T02:26:26.387+0000] {processor.py:914} INFO - Processing file /home/ubuntu/venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-04-06T02:26:26.389+0000] {logging_mixin.py:190} INFO - [2025-04-06T02:26:26.388+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubuntu/venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-04-06T02:26:26.398+0000] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /home/ubuntu/venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-04-06T02:26:26.414+0000] {logging_mixin.py:190} INFO - [2025-04-06T02:26:26.414+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-06T02:26:26.426+0000] {logging_mixin.py:190} INFO - [2025-04-06T02:26:26.426+0000] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2025-04-06T02:26:26.449+0000] {processor.py:208} INFO - Processing /home/ubuntu/venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py took 0.068 seconds

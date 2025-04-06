@@ -1,0 +1,22 @@
+[2025-04-06T02:25:47.543+0000] {processor.py:186} INFO - Started process (PID=3809) to work on /home/ubuntu/venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2025-04-06T02:25:47.544+0000] {processor.py:914} INFO - Processing file /home/ubuntu/venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py for tasks to queue
+[2025-04-06T02:25:47.546+0000] {logging_mixin.py:190} INFO - [2025-04-06T02:25:47.545+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubuntu/venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2025-04-06T02:25:47.554+0000] {processor.py:925} INFO - DAG(s) 'latest_only_with_trigger' retrieved from /home/ubuntu/venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2025-04-06T02:25:47.657+0000] {logging_mixin.py:190} INFO - [2025-04-06T02:25:47.656+0000] {override.py:1930} INFO - Created Permission View: can read on DAG:latest_only_with_trigger
+[2025-04-06T02:25:47.674+0000] {logging_mixin.py:190} INFO - [2025-04-06T02:25:47.674+0000] {override.py:1930} INFO - Created Permission View: can edit on DAG:latest_only_with_trigger
+[2025-04-06T02:25:47.687+0000] {logging_mixin.py:190} INFO - [2025-04-06T02:25:47.687+0000] {override.py:1930} INFO - Created Permission View: can delete on DAG:latest_only_with_trigger
+[2025-04-06T02:25:47.706+0000] {logging_mixin.py:190} INFO - [2025-04-06T02:25:47.706+0000] {override.py:1930} INFO - Created Permission View: can create on DAG Run:latest_only_with_trigger
+[2025-04-06T02:25:47.718+0000] {logging_mixin.py:190} INFO - [2025-04-06T02:25:47.718+0000] {override.py:1930} INFO - Created Permission View: menu access on DAG Run:latest_only_with_trigger
+[2025-04-06T02:25:47.729+0000] {logging_mixin.py:190} INFO - [2025-04-06T02:25:47.729+0000] {override.py:1930} INFO - Created Permission View: can read on DAG Run:latest_only_with_trigger
+[2025-04-06T02:25:47.740+0000] {logging_mixin.py:190} INFO - [2025-04-06T02:25:47.740+0000] {override.py:1930} INFO - Created Permission View: can delete on DAG Run:latest_only_with_trigger
+[2025-04-06T02:25:47.740+0000] {logging_mixin.py:190} INFO - [2025-04-06T02:25:47.740+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-06T02:25:47.751+0000] {logging_mixin.py:190} INFO - [2025-04-06T02:25:47.751+0000] {dag.py:3262} INFO - Creating ORM DAG for latest_only_with_trigger
+[2025-04-06T02:25:47.761+0000] {logging_mixin.py:190} INFO - [2025-04-06T02:25:47.761+0000] {dag.py:4180} INFO - Setting next_dagrun for latest_only_with_trigger to 2025-04-05 20:00:00+00:00, run_after=2025-04-06 00:00:00+00:00
+[2025-04-06T02:25:47.787+0000] {processor.py:208} INFO - Processing /home/ubuntu/venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py took 0.250 seconds
+[2025-04-06T02:26:52.046+0000] {processor.py:186} INFO - Started process (PID=3895) to work on /home/ubuntu/venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2025-04-06T02:26:52.048+0000] {processor.py:914} INFO - Processing file /home/ubuntu/venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py for tasks to queue
+[2025-04-06T02:26:52.050+0000] {logging_mixin.py:190} INFO - [2025-04-06T02:26:52.050+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubuntu/venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2025-04-06T02:26:52.060+0000] {processor.py:925} INFO - DAG(s) 'latest_only_with_trigger' retrieved from /home/ubuntu/venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2025-04-06T02:26:52.080+0000] {logging_mixin.py:190} INFO - [2025-04-06T02:26:52.080+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-06T02:26:52.100+0000] {logging_mixin.py:190} INFO - [2025-04-06T02:26:52.100+0000] {dag.py:4180} INFO - Setting next_dagrun for latest_only_with_trigger to 2025-04-05 20:00:00+00:00, run_after=2025-04-06 00:00:00+00:00
+[2025-04-06T02:26:52.127+0000] {processor.py:208} INFO - Processing /home/ubuntu/venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py took 0.087 seconds

@@ -1,0 +1,6 @@
+2025-04-06 11:32:42.784 [info] Can't use the Electron fetcher in this environment.
+2025-04-06 11:32:42.784 [info] Using the Node fetch fetcher.
+2025-04-06 11:32:42.784 [info] Initializing Git extension service.
+2025-04-06 11:32:42.784 [info] Successfully activated the vscode.git extension.
+2025-04-06 11:32:42.784 [info] Enablement state of the vscode.git extension: true.
+2025-04-06 11:32:42.784 [info] Successfully registered Git commit message provider.

@@ -1,0 +1,17 @@
+[2025-04-06T04:21:55.148+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-04-06T04:21:55.156+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: redfin_analytics_dag.task_extract_redfin_data manual__2025-04-06T04:21:50.286831+00:00 [queued]>
+[2025-04-06T04:21:55.161+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: redfin_analytics_dag.task_extract_redfin_data manual__2025-04-06T04:21:50.286831+00:00 [queued]>
+[2025-04-06T04:21:55.161+0000] {taskinstance.py:2867} INFO - Starting attempt 1 of 3
+[2025-04-06T04:21:55.176+0000] {taskinstance.py:2890} INFO - Executing <Task(PythonOperator): task_extract_redfin_data> on 2025-04-06 04:21:50.286831+00:00
+[2025-04-06T04:21:55.181+0000] {standard_task_runner.py:72} INFO - Started process 4853 to run task
+[2025-04-06T04:21:55.183+0000] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'redfin_analytics_dag', 'task_extract_redfin_data', 'manual__2025-04-06T04:21:50.286831+00:00', '--job-id', '11', '--raw', '--subdir', 'DAGS_FOLDER/redfin_dags.py', '--cfg-path', '/tmp/tmpj6sr0fy9']
+[2025-04-06T04:21:55.185+0000] {standard_task_runner.py:105} INFO - Job 11: Subtask task_extract_redfin_data
+[2025-04-06T04:21:55.222+0000] {task_command.py:467} INFO - Running <TaskInstance: redfin_analytics_dag.task_extract_redfin_data manual__2025-04-06T04:21:50.286831+00:00 [running]> on host ip-172-31-10-23.ap-southeast-2.compute.internal
+[2025-04-06T04:21:55.421+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='redfin_analytics_dag' AIRFLOW_CTX_TASK_ID='task_extract_redfin_data' AIRFLOW_CTX_EXECUTION_DATE='2025-04-06T04:21:50.286831+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-04-06T04:21:50.286831+00:00'
+[2025-04-06T04:21:55.422+0000] {taskinstance.py:732} INFO - ::endgroup::
+[2025-04-06T04:22:59.216+0000] {python.py:240} INFO - Done. Returned value was: ['/home/ubuntu/redfin_data_20250406-042256.csv', 'redfin_data_20250406-042256.csv']
+[2025-04-06T04:22:59.232+0000] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2025-04-06T04:22:59.233+0000] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=redfin_analytics_dag, task_id=task_extract_redfin_data, run_id=manual__2025-04-06T04:21:50.286831+00:00, execution_date=20250406T042150, start_date=20250406T042155, end_date=20250406T042259
+[2025-04-06T04:22:59.301+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-04-06T04:22:59.435+0000] {taskinstance.py:3901} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-04-06T04:22:59.444+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

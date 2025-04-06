@@ -1,0 +1,22 @@
+[2025-04-06T02:25:21.814+0000] {processor.py:186} INFO - Started process (PID=3787) to work on /home/ubuntu/venv/lib/python3.12/site-packages/airflow/example_dags/example_workday_timetable.py
+[2025-04-06T02:25:21.814+0000] {processor.py:914} INFO - Processing file /home/ubuntu/venv/lib/python3.12/site-packages/airflow/example_dags/example_workday_timetable.py for tasks to queue
+[2025-04-06T02:25:21.816+0000] {logging_mixin.py:190} INFO - [2025-04-06T02:25:21.815+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubuntu/venv/lib/python3.12/site-packages/airflow/example_dags/example_workday_timetable.py
+[2025-04-06T02:25:21.821+0000] {processor.py:925} INFO - DAG(s) 'example_workday_timetable' retrieved from /home/ubuntu/venv/lib/python3.12/site-packages/airflow/example_dags/example_workday_timetable.py
+[2025-04-06T02:25:21.923+0000] {logging_mixin.py:190} INFO - [2025-04-06T02:25:21.923+0000] {override.py:1930} INFO - Created Permission View: can read on DAG:example_workday_timetable
+[2025-04-06T02:25:21.938+0000] {logging_mixin.py:190} INFO - [2025-04-06T02:25:21.938+0000] {override.py:1930} INFO - Created Permission View: can edit on DAG:example_workday_timetable
+[2025-04-06T02:25:21.950+0000] {logging_mixin.py:190} INFO - [2025-04-06T02:25:21.949+0000] {override.py:1930} INFO - Created Permission View: can delete on DAG:example_workday_timetable
+[2025-04-06T02:25:21.967+0000] {logging_mixin.py:190} INFO - [2025-04-06T02:25:21.967+0000] {override.py:1930} INFO - Created Permission View: can create on DAG Run:example_workday_timetable
+[2025-04-06T02:25:21.978+0000] {logging_mixin.py:190} INFO - [2025-04-06T02:25:21.978+0000] {override.py:1930} INFO - Created Permission View: menu access on DAG Run:example_workday_timetable
+[2025-04-06T02:25:21.988+0000] {logging_mixin.py:190} INFO - [2025-04-06T02:25:21.987+0000] {override.py:1930} INFO - Created Permission View: can read on DAG Run:example_workday_timetable
+[2025-04-06T02:25:21.998+0000] {logging_mixin.py:190} INFO - [2025-04-06T02:25:21.998+0000] {override.py:1930} INFO - Created Permission View: can delete on DAG Run:example_workday_timetable
+[2025-04-06T02:25:21.998+0000] {logging_mixin.py:190} INFO - [2025-04-06T02:25:21.998+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-06T02:25:22.007+0000] {logging_mixin.py:190} INFO - [2025-04-06T02:25:22.007+0000] {dag.py:3262} INFO - Creating ORM DAG for example_workday_timetable
+[2025-04-06T02:25:22.047+0000] {logging_mixin.py:190} INFO - [2025-04-06T02:25:22.047+0000] {dag.py:4180} INFO - Setting next_dagrun for example_workday_timetable to 2021-01-04 00:00:00+00:00, run_after=2021-01-05 00:00:00+00:00
+[2025-04-06T02:25:22.069+0000] {processor.py:208} INFO - Processing /home/ubuntu/venv/lib/python3.12/site-packages/airflow/example_dags/example_workday_timetable.py took 0.261 seconds
+[2025-04-06T02:26:29.795+0000] {processor.py:186} INFO - Started process (PID=3847) to work on /home/ubuntu/venv/lib/python3.12/site-packages/airflow/example_dags/example_workday_timetable.py
+[2025-04-06T02:26:29.797+0000] {processor.py:914} INFO - Processing file /home/ubuntu/venv/lib/python3.12/site-packages/airflow/example_dags/example_workday_timetable.py for tasks to queue
+[2025-04-06T02:26:29.799+0000] {logging_mixin.py:190} INFO - [2025-04-06T02:26:29.799+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubuntu/venv/lib/python3.12/site-packages/airflow/example_dags/example_workday_timetable.py
+[2025-04-06T02:26:29.805+0000] {processor.py:925} INFO - DAG(s) 'example_workday_timetable' retrieved from /home/ubuntu/venv/lib/python3.12/site-packages/airflow/example_dags/example_workday_timetable.py
+[2025-04-06T02:26:29.818+0000] {logging_mixin.py:190} INFO - [2025-04-06T02:26:29.818+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-06T02:26:29.868+0000] {logging_mixin.py:190} INFO - [2025-04-06T02:26:29.868+0000] {dag.py:4180} INFO - Setting next_dagrun for example_workday_timetable to 2021-01-04 00:00:00+00:00, run_after=2021-01-05 00:00:00+00:00
+[2025-04-06T02:26:29.891+0000] {processor.py:208} INFO - Processing /home/ubuntu/venv/lib/python3.12/site-packages/airflow/example_dags/example_workday_timetable.py took 0.101 seconds

@@ -1,0 +1,22 @@
+[2025-04-06T02:25:12.459+0000] {processor.py:186} INFO - Started process (PID=3778) to work on /home/ubuntu/venv/lib/python3.12/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-04-06T02:25:12.459+0000] {processor.py:914} INFO - Processing file /home/ubuntu/venv/lib/python3.12/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2025-04-06T02:25:12.461+0000] {logging_mixin.py:190} INFO - [2025-04-06T02:25:12.461+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubuntu/venv/lib/python3.12/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-04-06T02:25:12.468+0000] {processor.py:925} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/ubuntu/venv/lib/python3.12/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-04-06T02:25:12.578+0000] {logging_mixin.py:190} INFO - [2025-04-06T02:25:12.578+0000] {override.py:1930} INFO - Created Permission View: can read on DAG:example_time_delta_sensor_async
+[2025-04-06T02:25:12.594+0000] {logging_mixin.py:190} INFO - [2025-04-06T02:25:12.594+0000] {override.py:1930} INFO - Created Permission View: can edit on DAG:example_time_delta_sensor_async
+[2025-04-06T02:25:12.605+0000] {logging_mixin.py:190} INFO - [2025-04-06T02:25:12.604+0000] {override.py:1930} INFO - Created Permission View: can delete on DAG:example_time_delta_sensor_async
+[2025-04-06T02:25:12.623+0000] {logging_mixin.py:190} INFO - [2025-04-06T02:25:12.623+0000] {override.py:1930} INFO - Created Permission View: can create on DAG Run:example_time_delta_sensor_async
+[2025-04-06T02:25:12.633+0000] {logging_mixin.py:190} INFO - [2025-04-06T02:25:12.633+0000] {override.py:1930} INFO - Created Permission View: menu access on DAG Run:example_time_delta_sensor_async
+[2025-04-06T02:25:12.644+0000] {logging_mixin.py:190} INFO - [2025-04-06T02:25:12.644+0000] {override.py:1930} INFO - Created Permission View: can read on DAG Run:example_time_delta_sensor_async
+[2025-04-06T02:25:12.655+0000] {logging_mixin.py:190} INFO - [2025-04-06T02:25:12.654+0000] {override.py:1930} INFO - Created Permission View: can delete on DAG Run:example_time_delta_sensor_async
+[2025-04-06T02:25:12.655+0000] {logging_mixin.py:190} INFO - [2025-04-06T02:25:12.655+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-06T02:25:12.667+0000] {logging_mixin.py:190} INFO - [2025-04-06T02:25:12.666+0000] {dag.py:3262} INFO - Creating ORM DAG for example_time_delta_sensor_async
+[2025-04-06T02:25:12.667+0000] {logging_mixin.py:190} INFO - [2025-04-06T02:25:12.667+0000] {dag.py:4180} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2025-04-06T02:25:12.688+0000] {processor.py:208} INFO - Processing /home/ubuntu/venv/lib/python3.12/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.234 seconds
+[2025-04-06T02:26:20.085+0000] {processor.py:186} INFO - Started process (PID=3838) to work on /home/ubuntu/venv/lib/python3.12/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-04-06T02:26:20.088+0000] {processor.py:914} INFO - Processing file /home/ubuntu/venv/lib/python3.12/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2025-04-06T02:26:20.089+0000] {logging_mixin.py:190} INFO - [2025-04-06T02:26:20.089+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubuntu/venv/lib/python3.12/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-04-06T02:26:20.096+0000] {processor.py:925} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/ubuntu/venv/lib/python3.12/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-04-06T02:26:20.111+0000] {logging_mixin.py:190} INFO - [2025-04-06T02:26:20.111+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-06T02:26:20.123+0000] {logging_mixin.py:190} INFO - [2025-04-06T02:26:20.123+0000] {dag.py:4180} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2025-04-06T02:26:20.146+0000] {processor.py:208} INFO - Processing /home/ubuntu/venv/lib/python3.12/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.065 seconds

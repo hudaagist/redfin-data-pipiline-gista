@@ -1,0 +1,46 @@
+2025-04-06 02:26:47.037 [info] Can't use the Electron fetcher in this environment.
+2025-04-06 02:26:47.037 [info] Using the Node fetch fetcher.
+2025-04-06 02:26:47.037 [info] Initializing Git extension service.
+2025-04-06 02:26:47.037 [info] Successfully activated the vscode.git extension.
+2025-04-06 02:26:47.037 [info] Enablement state of the vscode.git extension: true.
+2025-04-06 02:26:47.037 [info] Successfully registered Git commit message provider.
+2025-04-06 02:26:49.469 [info] Logged in as hudaagist
+2025-04-06 02:26:50.234 [info] Got Copilot token for hudaagist
+2025-04-06 02:26:54.425 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-04-06 02:26:54.425 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-04-06 02:26:54.445 [info] Registering default platform agent...
+2025-04-06 02:26:54.639 [info] Fetched model metadata in 4397ms b71b7b8f-2eaf-4aff-9312-5edfa2f48da3
+2025-04-06 02:26:54.643 [info] activationBlocker from 'languageModelAccess' took for 7199ms
+2025-04-06 02:41:58.782 [info] Fetched model metadata in 1452ms f1328ab5-5061-47cc-be94-1d17e1d6aedd
+2025-04-06 02:57:01.153 [info] Logged in as hudaagist
+2025-04-06 02:57:01.915 [info] Got Copilot token for hudaagist
+2025-04-06 02:57:03.801 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-04-06 03:27:07.208 [info] Logged in as hudaagist
+2025-04-06 03:27:08.043 [info] Got Copilot token for hudaagist
+2025-04-06 03:27:12.275 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-04-06 03:57:16.372 [info] Logged in as hudaagist
+2025-04-06 03:57:17.185 [info] Got Copilot token for hudaagist
+2025-04-06 03:57:18.579 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-04-06 03:57:18.634 [info] Fetched model metadata in 1443ms 7b6b99bb-8889-4a6d-95bb-8c8ffc7e70cf
+2025-04-06 04:12:21.511 [info] Fetched model metadata in 1522ms 140aad7e-640d-4af3-81b4-6ae95a0bf0df
+2025-04-06 04:27:22.800 [info] Logged in as hudaagist
+2025-04-06 04:27:23.579 [info] Got Copilot token for hudaagist
+2025-04-06 04:27:24.869 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-04-06 04:57:27.395 [info] Logged in as hudaagist
+2025-04-06 04:57:28.134 [info] Got Copilot token for hudaagist
+2025-04-06 04:57:29.395 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-04-06 05:34:49.372 [info] Logged in as hudaagist
+2025-04-06 05:34:50.188 [info] Got Copilot token for hudaagist
+2025-04-06 05:38:50.154 [info] Fetched model metadata in 239961ms ccf274e4-59b7-4fe7-8233-bb437c088b62
+2025-04-06 05:38:54.174 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-04-06 06:08:56.817 [info] Logged in as hudaagist
+2025-04-06 06:08:57.622 [info] Got Copilot token for hudaagist
+2025-04-06 06:08:59.306 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-04-06 06:39:01.981 [info] Logged in as hudaagist
+2025-04-06 06:39:02.711 [info] Got Copilot token for hudaagist
+2025-04-06 06:39:04.076 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-04-06 07:05:49.252 [info] Logged in as hudaagist
+2025-04-06 07:05:50.006 [info] Got Copilot token for hudaagist
+2025-04-06 07:05:50.808 [info] Fetched model metadata in 481548ms cda75678-e4ba-4e77-ac86-3909ac6dae50
+2025-04-06 07:13:49.256 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-04-06 07:21:50.014 [info] Fetched model metadata in 240740ms def3d6ad-0a8a-450d-9076-5985613646a2

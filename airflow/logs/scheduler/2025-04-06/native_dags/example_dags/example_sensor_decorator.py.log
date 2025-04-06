@@ -1,0 +1,22 @@
+[2025-04-06T02:25:43.209+0000] {processor.py:186} INFO - Started process (PID=3806) to work on /home/ubuntu/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-04-06T02:25:43.209+0000] {processor.py:914} INFO - Processing file /home/ubuntu/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2025-04-06T02:25:43.211+0000] {logging_mixin.py:190} INFO - [2025-04-06T02:25:43.211+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubuntu/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-04-06T02:25:43.219+0000] {processor.py:925} INFO - DAG(s) 'example_sensor_decorator' retrieved from /home/ubuntu/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-04-06T02:25:43.322+0000] {logging_mixin.py:190} INFO - [2025-04-06T02:25:43.322+0000] {override.py:1930} INFO - Created Permission View: can read on DAG:example_sensor_decorator
+[2025-04-06T02:25:43.336+0000] {logging_mixin.py:190} INFO - [2025-04-06T02:25:43.336+0000] {override.py:1930} INFO - Created Permission View: can edit on DAG:example_sensor_decorator
+[2025-04-06T02:25:43.346+0000] {logging_mixin.py:190} INFO - [2025-04-06T02:25:43.346+0000] {override.py:1930} INFO - Created Permission View: can delete on DAG:example_sensor_decorator
+[2025-04-06T02:25:43.366+0000] {logging_mixin.py:190} INFO - [2025-04-06T02:25:43.365+0000] {override.py:1930} INFO - Created Permission View: can create on DAG Run:example_sensor_decorator
+[2025-04-06T02:25:43.375+0000] {logging_mixin.py:190} INFO - [2025-04-06T02:25:43.375+0000] {override.py:1930} INFO - Created Permission View: menu access on DAG Run:example_sensor_decorator
+[2025-04-06T02:25:43.387+0000] {logging_mixin.py:190} INFO - [2025-04-06T02:25:43.386+0000] {override.py:1930} INFO - Created Permission View: can read on DAG Run:example_sensor_decorator
+[2025-04-06T02:25:43.396+0000] {logging_mixin.py:190} INFO - [2025-04-06T02:25:43.396+0000] {override.py:1930} INFO - Created Permission View: can delete on DAG Run:example_sensor_decorator
+[2025-04-06T02:25:43.396+0000] {logging_mixin.py:190} INFO - [2025-04-06T02:25:43.396+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-06T02:25:43.406+0000] {logging_mixin.py:190} INFO - [2025-04-06T02:25:43.405+0000] {dag.py:3262} INFO - Creating ORM DAG for example_sensor_decorator
+[2025-04-06T02:25:43.407+0000] {logging_mixin.py:190} INFO - [2025-04-06T02:25:43.407+0000] {dag.py:4180} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2025-04-06T02:25:43.425+0000] {processor.py:208} INFO - Processing /home/ubuntu/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.221 seconds
+[2025-04-06T02:26:49.470+0000] {processor.py:186} INFO - Started process (PID=3892) to work on /home/ubuntu/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-04-06T02:26:49.471+0000] {processor.py:914} INFO - Processing file /home/ubuntu/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2025-04-06T02:26:49.474+0000] {logging_mixin.py:190} INFO - [2025-04-06T02:26:49.474+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/ubuntu/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-04-06T02:26:49.482+0000] {processor.py:925} INFO - DAG(s) 'example_sensor_decorator' retrieved from /home/ubuntu/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-04-06T02:26:49.496+0000] {logging_mixin.py:190} INFO - [2025-04-06T02:26:49.496+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-06T02:26:49.509+0000] {logging_mixin.py:190} INFO - [2025-04-06T02:26:49.507+0000] {dag.py:4180} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2025-04-06T02:26:49.532+0000] {processor.py:208} INFO - Processing /home/ubuntu/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.067 seconds
